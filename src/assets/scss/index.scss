@@ -1,0 +1,145 @@
+html, body, #app {
+  height: 100%;
+  a {
+    text-decoration: none;
+  }
+  * {
+    outline: none;
+  }
+}
+
+.panel-comment {
+  margin: 20px 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fafbfd;
+}
+
+.el-collapse-item__wrap{
+  width : 100% !important;
+}
+
+.el-collapse-item__header {
+  height: 40px !important;
+  font-size: 16px !important;
+  line-height: 0% !important;
+  border: 0 !important;
+}
+
+.el-collapse-item__arrow {
+  line-height: 0% !important;
+  display: none !important;
+}
+
+.el-collapse-item__content {
+  font-size: 16px !important;
+  line-height: 0% !important;
+}
+
+.el-dialog {
+  border-radius: 5px !important;
+}
+
+.title-view {
+  font-size: 24px;
+  color: #606266;
+  font-weight: 500;
+  // font-family: "Microsoft YaHei","微软雅黑";
+  text-align: center;
+}
+
+.title-show {
+  font-size: 18px;
+  color: #606266;
+  font-weight: 500;
+  padding-bottom: 20px;
+  // font-family: "Microsoft YaHei","微软雅黑";
+  text-align: center;
+}
+
+.el-form-item__label {
+  font-weight: bold;
+}
+
+.el-badge__content.is-fixed {
+  top: 3px !important;
+  right: 15px !important;
+}
+
+/** 重新日历样式 */
+.__vev_calendar-wrapper .cal-wrapper {
+  width: 50%;
+  height: 350px !important;
+  padding: 10px 30px !important;
+  margin-left: 20px !important;
+  margin-bottom: 20px !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+  -webkit-box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05) !important;
+}
+.__vev_calendar-wrapper .cal-wrapper .cal-body .weeks .item {
+  line-height: 30px !important;
+}
+.__vev_calendar-wrapper .cal-wrapper .date-num {
+    line-height: 40px !important;
+}
+.__vev_calendar-wrapper .events-wrapper {
+  height: 350px !important;
+  padding: 15px 45px !important;
+  -webkit-box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05) !important;
+}
+.__vev_calendar-wrapper .events-wrapper .date {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+.__vev_calendar-wrapper .events-wrapper .event-item .title {
+  font-size: 14px !important;
+}
+
+/** 重写用户选择插件样式 */
+.el-transfer-panel {
+  width: 215px !important;
+}
+.el-transfer-panel__body {
+  height: 350px !important;
+}
+.el-transfer-panel__list.is-filterable {
+  height: 280px !important;
+}
+/*左侧导航栏*/
+.el-menu .el-submenu .is-active{
+  outline: 0;
+  background-color: rgb(67, 74, 80) !important;
+}
+.el-menu .el-submenu .is-active a{
+  color: #fff !important;
+}
+.el-menu .el-submenu .is-active:before {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  display: block;
+  width: 4px;
+  background-color: #3a79ff;
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  content: "";
+}
+.el-menu .el-submenu .is-active:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 3px solid #3a79ff;
+  transform: scaleY(.0001);
+  opacity: 0;
+  transition: transform .15s cubic-bezier(.215,.61,.355,1),opacity .15s cubic-bezier(.215,.61,.355,1);
+}
+.el-menu .el-submenu .is-active span{
+  color: #fff;
+}.el-menu .el-submenu span{
+   color: #ccc;
+ }
